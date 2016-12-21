@@ -1,9 +1,120 @@
 body{
-	background-color: cornflowerblue;
+	background-color: dodgerblue;
 }
 
 .logo-img{
-	height: 75px;
+	height: 35px;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 35px;
+	display: block;
+	margin-bottom: 25px;
+}
+
+.signup-box form{
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	background-color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.signup-form{
+	font-family: 'Roboto', helvetica, sans-serif;
+}
+
+.signup-form h1{
+	color: darkgrey; 
+	text-align: center;
+	padding-top: 40px;
+}
+
+.signup-form fieldset{
+	padding-left: 0;
+	border: none;
+}
+
+.signup-form label{
+	display: block;
+	padding: 15px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+.signup-form input{
+	width: 320px;
+	height: 38px;
+	border: 2px solid lightgrey;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.signup-form input::-webkit-input-placeholder {
+	font-family: 'Roboto', helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.signup-form input::-moz-placeholder {
+	font-family: 'Roboto', helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.signup-form input::-ms-input-placeholder{
+	font-family: 'Roboto', helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.signup-form input::-moz-placeholder{
+	font-family: 'Roboto', helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.signup-form button{
+	border-radius: 3px;
+	border: 2px solid #73cf63;
+	background-color: #73cf63;
+	padding: 0px;
+	height: 55px;
+	width: 320px;
+	color: white;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 15px;
+	display: block;
+}
+
+.signup-form button:hover{
+	background-color: seagreen;
+}
+
+.signup-form a{
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+	color: grey;
+	padding-bottom: 40px;
+}
+
+.login{
+	text-align: center;
+}
+
+.login p{
+	font-family: 'Roboto', helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+	display: inline-block;
+
+}
+
+.login a{
+	position: relative;
+	color: white;
+	font-family: 'Roboto', helvetica, sans-serif;
+	font-weight: bold;
 }
