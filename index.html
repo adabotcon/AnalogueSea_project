@@ -1,1 +1,40 @@
-AnalogueSea
+<!DOCTYPE html>
+<html>
+<head>
+<!-- styles-->
+	<link rel="stylesheet" type="text/css" href="analogueSea_style.css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo|Roboto" rel="stylesheet">
+
+	<!-- Tile and metas -->
+	<title>Analogue Sea</title>
+	<meta name="Analogue Sea Signup" content="Sign up for Analogue Sea.">
+</head>
+<body>
+	<header class="logo">
+		<img src="images/logo.png" class="logo-img">
+	</header>
+	<div class="signup-box">
+		<form class="signup-form" action="/signup" method="post">
+			<header class="signup-header">
+				<h1>Sign up</h1>
+			</header>
+			<!-- In the example the required label and input have an extra / after why? -->
+			<fieldset name="signup-info">
+
+				<label for="email" required/>Email</label>
+				<input type="email" name="email" id="email" placeholder="foo@bar.com" required/>
+
+				<label for="password" required/>Password</label>
+				<input type="password" name="password" id="password" placeholder="1234passwOrd" required/>
+
+			</fieldset>
+			<button type="submit">Sign up</button>
+			<a href="/forgot-password/new" class="forgot-password">Forgot password?</a>
+		</form>
+	</div>
+	<div class="login">
+		<p>Already have an account?</p>
+		<a href="/login">Login</a>
+	</div>
+</body>
+</html>
